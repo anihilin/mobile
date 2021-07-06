@@ -1,0 +1,128 @@
+#navbar nav {
+	background-color: #562051;
+}
+#navbar nav a {
+  color: white;
+}
+
+#carousel{
+	display:block; 
+	width:100%; 
+	height:60%; 
+	margin:0 auto; 
+	padding:225px 0; 
+	background-color:#151515;
+  position: relative;
+}
+#carousel img{
+	width: 400px;
+	height: auto;
+	display:none; 
+	cursor:pointer;
+  position: absolute;
+}
+
+#working{padding: 50px 0; background-color: #1D1D1D;}
+#working h1{font-size: 50px;color:#666666;}
+#working img{height: auto;width: 60%;}
+
+
+#about{padding:0 0 20px 0; background-color:#151515;}
+#about h2{font-size:120px; color:#585858; text-transform:uppercase; line-height:normal;}
+#about p{padding-top:35px; text-align:justify; line-height:1.5em;color:#585858;}
+#about .readmore a{text-align:right; font-weight:bold;color:#A97891 !important}
+#about h3{font-size:30px; color:#585858; text-transform:uppercase; line-height:normal;}
+
+
+#design{padding:65px 0; background-color: #1D1D1D;}
+#design p{line-height:1.6em; margin-top: 20px;color:#585858; }
+#design h2{padding:0 0 5px 0; color:#585858;  border-bottom:1px dotted #585858; font-size:40px; font-weight:bold; margin-bottom:20px;}
+#design img{width: 100%;height :80%;}
+
+
+/* ----------------------------------------------template------------------------------------- */
+
+#template .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+}
+
+#template .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(222, 220, 220);
+}
+
+#template .container {
+  padding: 2px 2px;
+}
+#template img{width: 110%;height: auto;}
+#template h2{padding:0 0 5px 0; color:#585858;font-size:40px; font-weight:bold; margin-bottom:20px;}
+#template h4{text-align: center; color:#1D1D1D ;}
+#template .readmore a{color:#A97891 !important;display:block; font-weight:bold;text-align: right;}
+#template {padding:45px 0;background-color:#151515; overflow: hidden;}
+
+/* ----------------------------------------------contact us------------------------------------- */
+#contact {padding:50px 0;  background-color:#1D1D1D;}
+#contact h2{padding:0 0 10px 0; color:#585858;font-size:40px; font-weight:bold; margin-bottom:20px;}
+#contact h4{padding:0 0 10px 0; color:#585858;font-size:20px; font-weight:bold; margin-bottom:20px;}
+#contact a{outline:none; text-decoration:none; color: #585858;}
+#contact .form-group{width: 45%; align-content: center;}
+#contact .button{
+  background-color: #E60498;  
+  border-radius:40px;
+  color: white;  
+  text-decoration: none;  
+  font-size: 14px;
+  margin: 5px 4px;
+  cursor: pointer; 
+  padding: 4px 15px;
+	}
+
+#copyright{padding:35px 0;}
+#copyright img{width: 200px;height: auto;}
+#copyright a{outline:none; text-decoration:none; color: #585858;}
+#copyright {color:#666666; background-color:#151515;border-top:1px dotted #E7BCE2;}
+#copyright li{ list-style: none;  }
+
+@media only screen and (max-width: 620px) {
+   /*For mobile phones:*/ 
+   #working h1{
+   	font-size: 25px;
+   }
+   #about h2{
+   	font-size: 65px;
+   }
+   #about p{
+   	font-size: 15px;
+   }
+   #design h2{
+   	font-size: 23px;
+   }   
+   #contact h2{
+   	font-size: 30px;
+   }   
+   #template h2{
+    font-size: 30px;
+   }
+   #contact .form-group{
+    width: 80%;    
+   }   
+  
+}
+
+@media only screen and (min-width: 768px) {
+  #about h2{ font-size: 75px; padding-top: 70px;}
+
+}
+
+/*----------------------------aboutpage---------------------------------*/
+#aboutpage img{
+  width: 100%;
+  height: auto;
+}
+#aboutpage {
+  padding: 75px 20px;
+  background-color: #1D1D1D;
+  color: #CCCCCC;  
+  overflow: hidden;
+}
